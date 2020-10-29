@@ -7,13 +7,18 @@
     content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <title>Студия АУДИОПАМЯТЬ</title>
-  <link href="./default-styles/normalize.css" rel="stylesheet">
-  <link href="./css/style.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css">
+  <link rel="stylesheet" href="./default-styles/normalize.css" rel="stylesheet">
+  <link rel="stylesheet" href="./css/style.css" rel="stylesheet">
 </head>
 
 <body class="page light-theme">
   <header class="header">
-    <div class="header__logo">Логотип</div>
+    <div class="header__logo">
+      <a href="#">
+        <img height="40px" src="./images/logo.svg" alt="logo">
+      </a>
+    </div>
     <nav class="header__navigation">
       <ul class="header__list">
         <li class="header__item">
@@ -61,10 +66,101 @@
       <h2 class="offer__art">Мы создаем не просто <span class="audiobooks">аудиокниги</span>, мы создаем
         <span class="audiobooks">произведения искусства!</span></h2>
     </section>
+    <section class="scenario">
+      <h2 class="scenario__title">Как это выглядит для Вас</h2>
+      <div class="swiper-container">
+        <div class="swiper-wrapper">
+          <div class="swiper-slide">
+            <div class="scenario__slide">
+              <h3 class="scenario__slide-title">
+                01. Подготовка к проекту
+              </h3>
+              <p class="scenario__text">
+                Обсуждаем с Вами проект, подбираем актеров озвучания, делаем пробные записи.
+              </p>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="scenario__slide">
+              <h3 class="scenario__slide-title">
+                02. Смета и договор
+              </h3>
+              <p class="scenario__text">
+                Согласовываем смету, заключаем договор с передачей Вам авторских прав на аудиофайлы.
+              </p>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="scenario__slide">
+              <h3 class="scenario__slide-title">
+                03. Подготовка материала редактором
+              </h3>
+              <p class="scenario__text">
+                Редактор изучает ваше произведение, готовит материал для начитки его актером озвучания.
+              </p>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="scenario__slide">
+              <h3 class="scenario__slide-title">
+                04. Запись материала
+              </h3>
+              <p class="scenario__text">
+                Актер начитывает произведение в полном объеме.
+              </p>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="scenario__slide">
+              <h3 class="scenario__slide-title">
+                05. Монтаж и обработка аудио
+              </h3>
+              <p class="scenario__text">
+                Далее в работу включается монтажер, который чистит запись от плохих дублей, ненужных звуков, производит
+                сборку аудио.
+              </p>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="scenario__slide">
+              <h3 class="scenario__slide-title">
+                06. Прослушка и корректура записей
+              </h3>
+              <p class="scenario__text">
+                Редактор отслушивает готовый материал на предмет неточностей и несоответствия. При необходимости вносим
+                правки в запись.
+              </p>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="scenario__slide">
+              <h3 class="scenario__slide-title">
+                07. Оформление и обработка звука
+              </h3>
+              <p class="scenario__text">
+                На следующем этапе звукорежиссер производит музыкальное оформление произведения, финальную обработку
+                звука и готовит материал для сдачи.
+              </p>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="scenario__slide">
+              <h3 class="scenario__slide-title scenario__slide-title_last">
+                08. Сдача материала заказчику
+              </h3>
+              <p class="scenario__text">
+                Передаем готовые аудиофайлы удобным для Вас способом.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
   </main>
   <footer class="footer">
 
   </footer>
+  <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
   <script src="./js/main.js"></script>
 </body>
 
