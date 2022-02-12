@@ -1,4 +1,4 @@
 # audiomemory
 
-Установка зависимостей: npm install
+Установка зависимостей: npm install </br>
 Сборка и запуск: gulp default
