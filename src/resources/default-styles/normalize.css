@@ -222,6 +222,13 @@ ol[class] {
   list-style: none;
 }
 
+ul {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+
+}
+
 a:not([class]) {
   text-decoration-skip-ink: auto;
 }
